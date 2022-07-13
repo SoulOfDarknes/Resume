@@ -265,3 +265,43 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+/* raiting-area */
+
+.raitinghtml {
+  margin-left: 25px;
+}
+.raitingcss {
+  margin-left: 39px;
+}
+.raitinggit {
+  margin-left: 51px;
+}
+.raitingwp {
+  margin-left: 25px;
+}
+.raitingbs {
+  margin-left: 31px;
+}
+.raitingjs {
+  margin-left: 29px;
+}
+
+.raiting-area::after {
+  content: "\2605\2605";
+}
+
+.star {
+  position: relative;
+  width: 10px;
+  display: inline-block;
+  color: gray;
+}
+
+.star.half:after {
+  content: "\2605";
+  color: #fb6d3a;
+  position: absolute;
+  width: 8px;
+  overflow: hidden;
+  margin-top: -17px;
+}
