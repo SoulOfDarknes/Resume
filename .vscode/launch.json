@@ -5,13 +5,22 @@
       "type": "pwa-node",
       "request": "launch",
       "name": "Launch Program",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}\\..\\..\\Test\\leetCode.js"
     },
     {
       "type": "node-terminal",
       "name": "JavaScript Debug Terminal",
       "request": "launch",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node-terminal",
+      "name": "Run Script: test",
+      "request": "launch",
+      "command": "npm run test",
       "cwd": "${workspaceFolder}"
     }
   ]
