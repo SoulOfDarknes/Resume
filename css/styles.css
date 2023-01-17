@@ -185,8 +185,9 @@ body {
 /* photo styles */
 
 .photo {
-  width: 370px;
+/*   width: 370px; */
   margin-bottom: 50px;
+  border-radius: 50%;
 }
 
 /* contacts, Tech Skills, soft-skills styles */
