@@ -185,7 +185,7 @@ body {
 /* photo styles */
 
 .photo {
-  width: 370px;
+  width: 370px;!important
   margin-bottom: 50px;
   border-radius: 50%;
 }
